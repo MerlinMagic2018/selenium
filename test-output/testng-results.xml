@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-09T21:58:06 IST" name="Default suite" finished-at="2021-03-09T21:59:11 IST" duration-ms="64268">
+    <groups>
+    </groups>
+    <test started-at="2021-03-09T21:58:06 IST" name="Default test" finished-at="2021-03-09T21:59:11 IST" duration-ms="64268">
+      <class name="com.roger.qa.testcsaes.MainURLPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.roger.qa.testcsaes.MainURLPageTest@4466af20]" started-at="2021-03-09T21:58:07 IST" name="setUp" finished-at="2021-03-09T21:58:15 IST" duration-ms="8437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateMainpageTitleTest()[pri:1, instance:com.roger.qa.testcsaes.MainURLPageTest@4466af20]" started-at="2021-03-09T21:58:15 IST" name="validateMainpageTitleTest" finished-at="2021-03-09T21:58:19 IST" duration-ms="3732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMainpageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.roger.qa.testcsaes.MainURLPageTest@4466af20]" started-at="2021-03-09T21:58:19 IST" name="tearDown" finished-at="2021-03-09T21:58:19 IST" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.roger.qa.testcsaes.MainURLPageTest@4466af20]" started-at="2021-03-09T21:58:19 IST" name="setUp" finished-at="2021-03-09T21:58:24 IST" duration-ms="4563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validaterogerLogoTest()[pri:2, instance:com.roger.qa.testcsaes.MainURLPageTest@4466af20]" started-at="2021-03-09T21:58:24 IST" name="validaterogerLogoTest" finished-at="2021-03-09T21:58:28 IST" duration-ms="4067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validaterogerLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.roger.qa.testcsaes.MainURLPageTest@4466af20]" started-at="2021-03-09T21:58:28 IST" name="tearDown" finished-at="2021-03-09T21:58:30 IST" duration-ms="1994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.roger.qa.testcsaes.MainURLPageTest@4466af20]" started-at="2021-03-09T21:58:30 IST" name="setUp" finished-at="2021-03-09T21:58:37 IST" duration-ms="6800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validaterogerpersonalTest()[pri:3, instance:com.roger.qa.testcsaes.MainURLPageTest@4466af20]" started-at="2021-03-09T21:58:37 IST" name="validaterogerpersonalTest" finished-at="2021-03-09T21:58:42 IST" duration-ms="5253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validaterogerpersonalTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.roger.qa.testcsaes.MainURLPageTest@4466af20]" started-at="2021-03-09T21:58:42 IST" name="tearDown" finished-at="2021-03-09T21:58:43 IST" duration-ms="821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.roger.qa.testcsaes.MainURLPageTest@4466af20]" started-at="2021-03-09T21:58:43 IST" name="setUp" finished-at="2021-03-09T21:58:54 IST" duration-ms="10969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validaterogerBussinessTest()[pri:4, instance:com.roger.qa.testcsaes.MainURLPageTest@4466af20]" started-at="2021-03-09T21:58:54 IST" name="validaterogerBussinessTest" finished-at="2021-03-09T21:58:58 IST" duration-ms="4039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validaterogerBussinessTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.roger.qa.testcsaes.MainURLPageTest@4466af20]" started-at="2021-03-09T21:58:58 IST" name="tearDown" finished-at="2021-03-09T21:58:58 IST" duration-ms="570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.roger.qa.testcsaes.MainURLPageTest@4466af20]" started-at="2021-03-09T21:58:58 IST" name="setUp" finished-at="2021-03-09T21:59:03 IST" duration-ms="4428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ClickonSignInTest()[pri:5, instance:com.roger.qa.testcsaes.MainURLPageTest@4466af20]" started-at="2021-03-09T21:59:03 IST" name="ClickonSignInTest" finished-at="2021-03-09T21:59:10 IST" duration-ms="7777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickonSignInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.roger.qa.testcsaes.MainURLPageTest@4466af20]" started-at="2021-03-09T21:59:10 IST" name="tearDown" finished-at="2021-03-09T21:59:11 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.roger.qa.testcsaes.MainURLPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
