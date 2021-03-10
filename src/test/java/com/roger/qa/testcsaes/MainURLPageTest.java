@@ -20,8 +20,9 @@ public class MainURLPageTest extends Base{
 	
 	@BeforeMethod
 	public void setUp() {
-		 initialization();
-		 mainURlpage = new MainURLPage();
+		initialization();
+		mainURlpage = new MainURLPage(); 
+		
 		
 	}
 	@Test(priority=1)
@@ -55,8 +56,8 @@ public class MainURLPageTest extends Base{
 	@Test(priority=5)
 	public void ClickonSignInTest() throws InterruptedException {
 		Thread.sleep(3000);
-		loginPage = mainURlpage.ClickonSignIn();
-	
+		loginPage= mainURlpage.ClickonSignIn();
+		//return new LoginPage();
 	
 	}
 		

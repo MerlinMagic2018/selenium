@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.roger.qa.testcsaes.MainURLPageTest">
+      <class name="com.roger.qa.testcsaes.SignUpPageTest">
         <methods>
-          <include name="validaterogerLogoTest"/>
           <include name="setUp"/>
+          <include name="validatesignuppageTitleTest"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.roger.qa.testcsaes.MainURLPageTest -->
+      </class> <!-- com.roger.qa.testcsaes.SignUpPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
