@@ -9,8 +9,11 @@ import com.roger.qa.base.Base;
 public class LoginPage extends Base{
 
 	
-	@FindBy(xpath="//span[text()='Register']")
-	WebElement register;
+	@FindBy(xpath="//input[@id='username']")
+	WebElement username;
+	
+	@FindBy(xpath="//input[@id='password']")
+	WebElement password;
 	
 	
 	public LoginPage() {	
@@ -22,12 +25,10 @@ public class LoginPage extends Base{
 	
 	}
 	
-	public SignUpPage clickONSignUP() {
-		
-		register.click();
-		return new SignUpPage();
-		
-	}
+	public void loginData(String userName, String passWord) {
 	
+	username.sendKeys(userName);	
+	password.sendKeys(passWord);
+	}
 	
 }

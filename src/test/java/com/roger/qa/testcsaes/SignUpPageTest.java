@@ -29,7 +29,7 @@ public class SignUpPageTest extends Base{
 		loginpage = mainURlpage.ClickonSignIn();
 		loginpage = new LoginPage();
 		Thread.sleep(3000);
-		signuppage= loginpage.clickONSignUP();
+		//signuppage= loginpage.clickONSignUP();
 		
 	}
 	

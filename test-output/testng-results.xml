@@ -1,49 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-10T21:33:49 IST" name="Default suite" finished-at="2021-03-10T21:35:32 IST" duration-ms="103033">
+  <suite started-at="2021-03-12T21:19:16 IST" name="Default suite" finished-at="2021-03-12T21:21:15 IST" duration-ms="118957">
     <groups>
     </groups>
-    <test started-at="2021-03-10T21:33:49 IST" name="Default test" finished-at="2021-03-10T21:35:32 IST" duration-ms="103033">
-      <class name="com.roger.qa.testcsaes.SignUpPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.roger.qa.testcsaes.SignUpPageTest@4466af20]" started-at="2021-03-10T21:33:49 IST" name="setUp" finished-at="2021-03-10T21:34:08 IST" duration-ms="18669" status="PASS">
+    <test started-at="2021-03-12T21:19:16 IST" name="Default test" finished-at="2021-03-12T21:21:15 IST" duration-ms="118957">
+      <class name="com.roger.qa.testcsaes.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.roger.qa.testcsaes.LoginPageTest@9225652]" started-at="2021-03-12T21:19:17 IST" name="setUp" finished-at="2021-03-12T21:19:40 IST" duration-ms="22952" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="emailuserTest()[pri:0, instance:com.roger.qa.testcsaes.SignUpPageTest@4466af20]" started-at="2021-03-10T21:34:08 IST" name="emailuserTest" finished-at="2021-03-10T21:34:14 IST" duration-ms="6253" status="PASS">
+        <test-method signature="loginDataTest(java.lang.String, java.lang.String)[pri:0, instance:com.roger.qa.testcsaes.LoginPageTest@9225652]" started-at="2021-03-12T21:19:40 IST" name="loginDataTest" data-provider="getData" finished-at="2021-03-12T21:19:47 IST" duration-ms="6911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manoj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumawat]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- emailuserTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.roger.qa.testcsaes.SignUpPageTest@4466af20]" started-at="2021-03-10T21:34:14 IST" name="tearDown" finished-at="2021-03-10T21:34:15 IST" duration-ms="600" status="PASS">
+        </test-method> <!-- loginDataTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.roger.qa.testcsaes.LoginPageTest@9225652]" started-at="2021-03-12T21:19:47 IST" name="tearDown" finished-at="2021-03-12T21:19:51 IST" duration-ms="4263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.roger.qa.testcsaes.SignUpPageTest@4466af20]" started-at="2021-03-10T21:34:15 IST" name="setUp" finished-at="2021-03-10T21:34:35 IST" duration-ms="19987" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.roger.qa.testcsaes.LoginPageTest@9225652]" started-at="2021-03-12T21:19:51 IST" name="setUp" finished-at="2021-03-12T21:20:02 IST" duration-ms="10614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validatesignuppageTitleTest()[pri:0, instance:com.roger.qa.testcsaes.SignUpPageTest@4466af20]" started-at="2021-03-10T21:34:35 IST" name="validatesignuppageTitleTest" finished-at="2021-03-10T21:34:38 IST" duration-ms="3046" status="PASS">
+        <test-method signature="loginDataTest(java.lang.String, java.lang.String)[pri:0, instance:com.roger.qa.testcsaes.LoginPageTest@9225652]" started-at="2021-03-12T21:20:02 IST" name="loginDataTest" data-provider="getData" finished-at="2021-03-12T21:20:08 IST" duration-ms="6480" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiran]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bedwal]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validatesignuppageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.roger.qa.testcsaes.SignUpPageTest@4466af20]" started-at="2021-03-10T21:34:38 IST" name="tearDown" finished-at="2021-03-10T21:34:38 IST" duration-ms="436" status="PASS">
+        </test-method> <!-- loginDataTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.roger.qa.testcsaes.LoginPageTest@9225652]" started-at="2021-03-12T21:20:08 IST" name="tearDown" finished-at="2021-03-12T21:20:09 IST" duration-ms="649" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.roger.qa.testcsaes.SignUpPageTest@4466af20]" started-at="2021-03-10T21:34:38 IST" name="setUp" finished-at="2021-03-10T21:34:57 IST" duration-ms="18846" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.roger.qa.testcsaes.LoginPageTest@9225652]" started-at="2021-03-12T21:20:09 IST" name="setUp" finished-at="2021-03-12T21:20:22 IST" duration-ms="12977" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="click()[pri:0, instance:com.roger.qa.testcsaes.SignUpPageTest@4466af20]" started-at="2021-03-10T21:34:57 IST" name="click" finished-at="2021-03-10T21:35:30 IST" depends-on-methods="com.roger.qa.testcsaes.SignUpPageTest.emailuserTest" duration-ms="33363" status="PASS">
+        <test-method signature="loginDataTest(java.lang.String, java.lang.String)[pri:0, instance:com.roger.qa.testcsaes.LoginPageTest@9225652]" started-at="2021-03-12T21:20:22 IST" name="loginDataTest" data-provider="getData" finished-at="2021-03-12T21:20:28 IST" duration-ms="6333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[priyanshu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumawat]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- click -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.roger.qa.testcsaes.SignUpPageTest@4466af20]" started-at="2021-03-10T21:35:30 IST" name="tearDown" finished-at="2021-03-10T21:35:32 IST" duration-ms="1738" status="PASS">
+        </test-method> <!-- loginDataTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.roger.qa.testcsaes.LoginPageTest@9225652]" started-at="2021-03-12T21:20:28 IST" name="tearDown" finished-at="2021-03-12T21:20:33 IST" duration-ms="4338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.roger.qa.testcsaes.SignUpPageTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.roger.qa.testcsaes.LoginPageTest@9225652]" started-at="2021-03-12T21:20:33 IST" name="setUp" finished-at="2021-03-12T21:20:45 IST" duration-ms="12356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginDataTest(java.lang.String, java.lang.String)[pri:0, instance:com.roger.qa.testcsaes.LoginPageTest@9225652]" started-at="2021-03-12T21:20:45 IST" name="loginDataTest" data-provider="getData" finished-at="2021-03-12T21:20:51 IST" duration-ms="6340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[praveen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.roger.qa.testcsaes.LoginPageTest@9225652]" started-at="2021-03-12T21:20:51 IST" name="tearDown" finished-at="2021-03-12T21:20:56 IST" duration-ms="4726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.roger.qa.testcsaes.LoginPageTest@9225652]" started-at="2021-03-12T21:20:56 IST" name="setUp" finished-at="2021-03-12T21:21:07 IST" duration-ms="11432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginpageTitle()[pri:0, instance:com.roger.qa.testcsaes.LoginPageTest@9225652]" started-at="2021-03-12T21:21:07 IST" name="validateLoginpageTitle" finished-at="2021-03-12T21:21:11 IST" duration-ms="3218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginpageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.roger.qa.testcsaes.LoginPageTest@9225652]" started-at="2021-03-12T21:21:11 IST" name="tearDown" finished-at="2021-03-12T21:21:15 IST" duration-ms="4080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.roger.qa.testcsaes.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
