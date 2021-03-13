@@ -23,7 +23,8 @@ public class SignUpPage extends Base {
 	
 	
 	
-	public String validatesignuppageTitle() {
+	public String validatesignuppageTitle() throws InterruptedException {
+		
 		return driver.getTitle();
 	}
 	

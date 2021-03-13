@@ -6,10 +6,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.roger.qa.util.TestUtil;
-import com.roger.qa.util.WebEventListener;
 
 public class Base {
 
@@ -24,7 +23,7 @@ public class Base {
 			+ "\\POM_Project_concept\\src\\main\\java\\com\\roger\\qa\\util\\chromedriver.exe";
 	
 	public static String firefoxExePath = "C:\\Users\\Name\\eclipse-workspace\\POM_Project_concept"
-			+ "\\src\\main\\java\\com\\roger\\qa\\util\\chromedriver.exe";
+			+ "\\src\\main\\java\\com\\roger\\qa\\util\\geckodriver.exe";
 	public static Properties prop;
 	public static FileInputStream file;
 	
@@ -43,6 +42,7 @@ public class Base {
 	 
 	
 	
+	@SuppressWarnings("deprecation")
 	public static void initialization() {
 		//String browser = "chrome";
 		String browserName = prop.getProperty("browser");
@@ -54,9 +54,9 @@ public class Base {
 			driver =  new ChromeDriver();
 	}
 			
-		else if(browserName.equals("firefox")) {
+		else if(browserName.equals("FF")) {
 			System.setProperty("webdriver.gecko.driver", firefoxExePath);
-			driver =  new ChromeDriver();
+			driver =  new FirefoxDriver();
 		}
 		else {
 			System.out.println("Browser name is not found");

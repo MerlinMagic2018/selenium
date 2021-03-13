@@ -29,7 +29,7 @@ public class SignUpPageTest extends Base{
 		loginpage = mainURlpage.ClickonSignIn();
 		loginpage = new LoginPage();
 		Thread.sleep(3000);
-		//signuppage= loginpage.clickONSignUP();
+		signuppage= loginpage.register();
 		
 	}
 	
@@ -44,13 +44,13 @@ public class SignUpPageTest extends Base{
 	
 	
 	@Test
-	public void emailuserTest() throws InterruptedException {
+public void emailuserTest() throws InterruptedException {
 		Thread.sleep(3000);
 		signuppage.email();
 		Thread.sleep(3000);
 		System.out.println("***User Email****");
 	}
-	@Test(dependsOnMethods ={ "emailuserTest" })
+	@Test
 	public void click() throws InterruptedException {
 		Thread.sleep(3000);
 		signuppage.clickoncontinue();

@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.roger.qa.testcsaes.LoginPageTest">
+      <class name="ExtentReportListener.ExtentReportListener">
         <methods>
-          <include name="loginDataTest"/>
-          <include name="validateLoginpageTitle"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="endTest"/>
+          <include name="startTest"/>
+          <include name="extentReportsDemo"/>
         </methods>
-      </class> <!-- com.roger.qa.testcsaes.LoginPageTest -->
+      </class> <!-- ExtentReportListener.ExtentReportListener -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -53,6 +53,10 @@ public class LoginPageTest extends Base{
 			
 	}
 	
+	@Test
+	public void clickONSignUP() {
+		signuppage = loginpage.register();
+	}
 		
 	@AfterMethod
 	public void tearDown() {

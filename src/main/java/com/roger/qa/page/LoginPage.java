@@ -15,6 +15,8 @@ public class LoginPage extends Base{
 	@FindBy(xpath="//input[@id='password']")
 	WebElement password;
 	
+	@FindBy(xpath = "//span[text()='Register']")
+	WebElement clickONRegister;
 	
 	public LoginPage() {	
 	PageFactory.initElements(driver, this);			
@@ -29,6 +31,14 @@ public class LoginPage extends Base{
 	
 	username.sendKeys(userName);	
 	password.sendKeys(passWord);
+	}
+	
+	
+	
+	public SignUpPage register() {
+		clickONRegister.click();
+		
+		return new SignUpPage();
 	}
 	
 }
